@@ -29,16 +29,16 @@ class Dicepage extends StatelessWidget {
 
         children: <Widget>[
           Expanded(
-            child: Padding(
-              padding: const EdgeInsets.all(8.0),
+            child: FlatButton(
+              onPressed: () {  },
               child: Image(
                 image: AssetImage('images/dice1.png'),
               ),
             ),
          ),
           Expanded(
-            child: Padding(
-              padding: const EdgeInsets.all(8.0),
+            child: FlatButton(
+              onPressed: (){},
               child: Image(
                 image: AssetImage('images/dice1.png'),
               ),
